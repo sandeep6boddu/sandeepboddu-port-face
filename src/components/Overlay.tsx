@@ -22,36 +22,41 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
 
   return (
     <div className="absolute inset-0 z-10 pointer-events-none">
-      {/* Section 1 */}
+      {/* Section 1 — Hero Name */}
       <motion.div
         style={{ opacity: opacity1, y: y1 }}
         className="absolute inset-0 flex flex-col items-center justify-center text-center p-8"
       >
+        <p className="text-lg md:text-xl font-light text-white/60 uppercase tracking-[0.3em] mb-4 drop-shadow-md">
+          Hello, I&apos;m
+        </p>
         <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white drop-shadow-lg">
-          Sandeep.
+          Sandeep Boddu<span className="text-blue-400">.</span>
         </h1>
         <p className="mt-4 text-xl md:text-2xl font-light text-white/80 uppercase tracking-widest drop-shadow-md">
-          Creative Engineer.
+          DevOps &amp; Web Engineer
         </p>
       </motion.div>
 
-      {/* Section 2 */}
+      {/* Section 2 — Tagline */}
       <motion.div
         style={{ opacity: opacity2, y: y2 }}
         className="absolute inset-0 flex flex-col items-start justify-center p-8 md:p-24"
       >
         <h2 className="text-4xl md:text-6xl font-semibold leading-tight text-white max-w-2xl drop-shadow-lg">
-          I build digital experiences.
+          Multi-Cloud Architect.
+          <br />
+          <span className="text-white/60">Azure · AWS · GCP</span>
         </h2>
       </motion.div>
 
-      {/* Section 3 */}
+      {/* Section 3 — Mission */}
       <motion.div
         style={{ opacity: opacity3, y: y3 }}
         className="absolute inset-0 flex flex-col items-end justify-center text-right p-8 md:p-24"
       >
         <h2 className="text-4xl md:text-6xl font-semibold leading-tight text-white max-w-2xl drop-shadow-lg">
-          Bridging design and engineering.
+          Bridging e-commerce, development &amp; infrastructure.
         </h2>
       </motion.div>
     </div>
