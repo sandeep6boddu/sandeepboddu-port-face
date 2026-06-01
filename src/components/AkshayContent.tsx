@@ -12,6 +12,11 @@ const capabilities = [
     tags: ['Azure', 'AWS', 'GCP', 'Terraform', 'Kubernetes'],
   },
   {
+    title: 'AI Agents & Automation',
+    desc: 'Building intelligent AI agents — RAG-based chatbots, resume builders, and job portals — using n8n workflow automation and LLMs. Turning ideas into production apps with vibe coding.',
+    tags: ['n8n', 'LLMs', 'RAG', 'Chatbots', 'Vibe Coding'],
+  },
+  {
     title: 'Full-Stack Development',
     desc: 'Building high-performance frontends with React, Next.js, and TypeScript, backed by robust Node.js and Java backend services with REST APIs and GraphQL.',
     tags: ['React', 'Next.js', 'Node.js', 'TypeScript', 'Python'],
@@ -30,6 +35,30 @@ const capabilities = [
 
 const projects = [
   {
+    title: 'AI Chatbot — RAG Based',
+    category: 'AI Agents / Conversational AI',
+    tools: 'n8n, LLMs, RAG, Vector DB, OpenAI',
+    desc: 'Built intelligent RAG-based chatbots that retrieve context from knowledge bases and generate accurate, grounded responses — deployed via n8n automation workflows.',
+  },
+  {
+    title: 'AI Resume Builder',
+    category: 'AI Agents / Productivity',
+    tools: 'n8n, LLMs, Next.js, OpenAI',
+    desc: 'Created an AI-powered resume builder that generates tailored, ATS-optimized resumes from user input using LLM pipelines orchestrated through n8n.',
+  },
+  {
+    title: 'Job Portal — Employer Dashboard',
+    category: 'AI Agents / HR Tech',
+    tools: 'n8n, LLMs, React, Node.js',
+    desc: 'Developed an employer-facing job portal with AI-assisted candidate matching, automated screening workflows, and smart job description generation.',
+  },
+  {
+    title: 'Job Apply Portal — Employee',
+    category: 'AI Agents / HR Tech',
+    tools: 'n8n, LLMs, Next.js, AI Matching',
+    desc: 'Built an employee job application portal with AI-powered job recommendations, one-click smart applications, and automated follow-up workflows.',
+  },
+  {
     title: 'Multi-Cloud K8s Platform',
     category: 'DevOps / Infrastructure',
     tools: 'EKS, AKS, GKE, Terraform, ArgoCD',
@@ -39,19 +68,13 @@ const projects = [
     title: 'Global Magento 2 Storefront',
     category: 'E-Commerce / Enterprise',
     tools: 'Magento 2 EE, Varnish, Redis, PHP',
-    desc: 'Built and maintained enterprise retail storefronts with custom modules, multi-store config, B2B portals, and payment gateway integrations (Stripe, PayPal, Braintree).',
+    desc: 'Built and maintained enterprise retail storefronts with custom modules, multi-store config, B2B portals, and payment gateway integrations.',
   },
   {
     title: 'Automated GitOps CI/CD',
     category: 'Automation / Pipelines',
     tools: 'Azure DevOps, Jenkins, Docker, Helm',
     desc: 'Designed multi-stage CI/CD pipelines for build, test, and release across dev, staging, and production with automated quality gates.',
-  },
-  {
-    title: 'AIOps Observability Stack',
-    category: 'Monitoring / Platform',
-    tools: 'Prometheus, Grafana, Datadog, OpsRamp',
-    desc: 'Integrated intelligent alert correlation and automated incident routing across multi-cloud environments using AIOps tooling.',
   },
   {
     title: 'Headless WooCommerce',
@@ -104,6 +127,7 @@ const certifications = [
 ];
 
 const techSkills = [
+  { category: 'AI & Automation', items: ['n8n Workflows', 'LLMs (OpenAI, Claude)', 'RAG Pipelines', 'Vector Databases', 'AI Chatbots', 'Vibe Coding'] },
   { category: 'Cloud Platforms', items: ['Azure (AKS, DevOps, Functions, Key Vault)', 'AWS (EKS, EC2, Lambda, S3, RDS)', 'GCP (GKE, Cloud Run, Cloud Build)'] },
   { category: 'CI/CD & GitOps', items: ['Azure DevOps', 'Jenkins', 'GitHub Actions', 'Argo CD', 'SonarQube'] },
   { category: 'Containers & K8s', items: ['Docker', 'Kubernetes', 'Helm', 'Kustomize', 'OpenShift'] },
@@ -141,7 +165,7 @@ export default function SandeepContent() {
           <FadeIn>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">About Me</h2>
             <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl">
-              Technology professional with <span className="text-white font-medium">15+ years</span> of experience across three disciplines: E-Commerce Development, Full-Stack Web Engineering, and Multi-Cloud DevOps. Started career as an E-Commerce specialist — building and scaling WordPress and Magento storefronts — before pivoting into cloud infrastructure. Now specializes in architecting cloud-native infrastructure across <span className="text-blue-400 font-medium">Azure, AWS, and GCP</span>, with deep expertise in CI/CD automation, Kubernetes, Terraform, and AIOps-driven observability.
+              Technology professional with <span className="text-white font-medium">15+ years</span> of experience across E-Commerce Development, Full-Stack Web Engineering, Multi-Cloud DevOps, and <span className="text-blue-400 font-medium">AI Agent Development</span>. Started career as an E-Commerce specialist — building and scaling WordPress and Magento storefronts — before pivoting into cloud infrastructure and AI automation. Now specializes in architecting cloud-native infrastructure across <span className="text-blue-400 font-medium">Azure, AWS, and GCP</span>, building intelligent AI agents (RAG chatbots, resume builders, job portals) using <span className="text-white font-medium">n8n and LLMs</span>, and creating full applications with vibe coding.
             </p>
           </FadeIn>
         </section>
@@ -304,7 +328,7 @@ export default function SandeepContent() {
             <div className="p-12 rounded-3xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 backdrop-blur-md text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Let&apos;s Connect</h2>
               <p className="text-white/50 text-lg font-light mb-8 max-w-xl mx-auto">
-                📍 Greenwood, Indiana &nbsp;·&nbsp; 15+ years of experience
+                📍 Carmel, Indiana &nbsp;·&nbsp; 15+ years of experience
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
                 <a
@@ -314,7 +338,7 @@ export default function SandeepContent() {
                   sandeep6boddu@gmail.com
                 </a>
                 <a
-                  href="tel:225-481-9642"
+                  href="tel:+1 225-481-9642"
                   className="px-8 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full font-medium transition-colors text-base"
                 >
                   📱 225-481-9642

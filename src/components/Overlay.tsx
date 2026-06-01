@@ -34,7 +34,7 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
           Sandeep Boddu<span className="text-blue-400">.</span>
         </h1>
         <p className="mt-4 text-xl md:text-2xl font-light text-white/80 uppercase tracking-widest drop-shadow-md">
-          DevOps &amp; Web Engineer
+          DevOps · AI Agents · Web Engineer
         </p>
       </motion.div>
 
@@ -56,7 +56,7 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
         className="absolute inset-0 flex flex-col items-end justify-center text-right p-8 md:p-24"
       >
         <h2 className="text-4xl md:text-6xl font-semibold leading-tight text-white max-w-2xl drop-shadow-lg">
-          Bridging e-commerce, development &amp; infrastructure.
+          From cloud infra to AI agents &amp; vibe coding.
         </h2>
       </motion.div>
     </div>
