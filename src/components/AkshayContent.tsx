@@ -165,16 +165,13 @@ export default function SandeepContent() {
           <FadeIn>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">About Me</h2>
             <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl mb-6">
-              I am a technology professional with experience spanning <span className="text-white font-medium">software development, cloud infrastructure, automation, and artificial intelligence</span>. Throughout my career, I have worked across diverse areas of technology, from building and managing web applications and e-commerce platforms to designing scalable cloud-native solutions and intelligent automation systems.
+              I am a technology professional with experience spanning <span className="text-white font-medium">full-stack web development, cloud engineering, DevOps automation, and artificial intelligence</span>. Over the years, I have built web applications, e-commerce platforms, cloud-native systems, and intelligent automation solutions that help businesses operate more efficiently and scale with confidence.
             </p>
             <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl mb-6">
-              My expertise includes <span className="text-blue-400 font-medium">cloud technologies, DevOps practices, full-stack development, workflow automation, and AI-powered applications</span>. I enjoy solving complex business challenges by combining modern technologies with practical, scalable solutions that improve efficiency, reliability, and user experience.
-            </p>
-            <p className="text-white/50 text-lg font-light leading-relaxed max-w-4xl mb-6">
-              With a passion for continuous learning and innovation, I stay current with emerging technologies and industry trends, exploring new ways to leverage cloud computing, automation, and artificial intelligence to create meaningful impact. I believe in building solutions that are not only technically sound but also aligned with real-world business needs.
+              My expertise includes <span className="text-blue-400 font-medium">frontend and backend development, cloud architecture, infrastructure automation, CI/CD implementation, and AI-driven applications</span>. I enjoy combining modern technologies with practical problem-solving to deliver scalable, secure, and business-focused solutions.
             </p>
             <p className="text-white/50 text-lg font-light leading-relaxed max-w-4xl mb-12">
-              Whether working on application development, cloud architecture, process automation, or AI-driven projects, my focus remains the same: <span className="text-white font-medium">delivering technology solutions that are scalable, efficient, and built for the future</span>.
+              Today, I focus on building <span className="text-white font-medium">modern applications, cloud platforms, and AI-powered systems</span> that create measurable value and meaningful user experiences.
             </p>
           </FadeIn>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
