@@ -164,10 +164,34 @@ export default function SandeepContent() {
         <section id="about">
           <FadeIn>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">About Me</h2>
-            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl">
-              Technology professional with <span className="text-white font-medium">15+ years</span> of experience across E-Commerce Development, Full-Stack Web Engineering, Multi-Cloud DevOps, and <span className="text-blue-400 font-medium">AI Agent Development</span>. Started career as an E-Commerce specialist — building and scaling WordPress and Magento storefronts — before pivoting into cloud infrastructure and AI automation. Now specializes in architecting cloud-native infrastructure across <span className="text-blue-400 font-medium">Azure, AWS, and GCP</span>, building intelligent AI agents (RAG chatbots, resume builders, job portals) using <span className="text-white font-medium">n8n and LLMs</span>, and creating full applications with vibe coding.
+            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl mb-6">
+              I am a technology professional with experience spanning <span className="text-white font-medium">software development, cloud infrastructure, automation, and artificial intelligence</span>. Throughout my career, I have worked across diverse areas of technology, from building and managing web applications and e-commerce platforms to designing scalable cloud-native solutions and intelligent automation systems.
+            </p>
+            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-4xl mb-6">
+              My expertise includes <span className="text-blue-400 font-medium">cloud technologies, DevOps practices, full-stack development, workflow automation, and AI-powered applications</span>. I enjoy solving complex business challenges by combining modern technologies with practical, scalable solutions that improve efficiency, reliability, and user experience.
+            </p>
+            <p className="text-white/50 text-lg font-light leading-relaxed max-w-4xl mb-6">
+              With a passion for continuous learning and innovation, I stay current with emerging technologies and industry trends, exploring new ways to leverage cloud computing, automation, and artificial intelligence to create meaningful impact. I believe in building solutions that are not only technically sound but also aligned with real-world business needs.
+            </p>
+            <p className="text-white/50 text-lg font-light leading-relaxed max-w-4xl mb-12">
+              Whether working on application development, cloud architecture, process automation, or AI-driven projects, my focus remains the same: <span className="text-white font-medium">delivering technology solutions that are scalable, efficient, and built for the future</span>.
             </p>
           </FadeIn>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { value: 'Multi-Cloud', label: 'Azure · AWS · GCP' },
+              { value: 'GitOps', label: 'CI/CD · Argo CD · Helm' },
+              { value: 'AI Agents', label: 'RAG · LLMs · n8n' },
+              { value: 'Full-Stack', label: 'React · Next.js · Node' },
+            ].map((stat, idx) => (
+              <FadeIn key={idx} delay={idx * 0.1}>
+                <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
+                  <p className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">{stat.value}</p>
+                  <p className="text-white/40 text-sm font-light">{stat.label}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
         </section>
 
         {/* ── Core Capabilities ── */}
@@ -328,7 +352,7 @@ export default function SandeepContent() {
             <div className="p-12 rounded-3xl bg-gradient-to-br from-white/5 to-white/[0.02] border border-white/10 backdrop-blur-md text-center">
               <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Let&apos;s Connect</h2>
               <p className="text-white/50 text-lg font-light mb-8 max-w-xl mx-auto">
-                📍 Carmel, Indiana &nbsp;·&nbsp; 15+ years of experience
+                📍 Carmel, Indiana
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
                 <a

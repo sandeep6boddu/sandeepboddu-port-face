@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Sandeep Boddu | Multi-Cloud DevOps · AI Agent Builder · E-Commerce Architect',
-  description: 'Technology professional with 15+ years of experience in Multi-Cloud DevOps, AI Agent Development (RAG chatbots, resume builders, job portals using n8n & LLMs), Full-Stack Web Engineering, and E-Commerce Architecture across Azure, AWS, and GCP.',
+  title: 'Sandeep Boddu | Cloud Engineering · DevOps · Full-Stack · AI Solutions',
+  description: 'Technology professional with expertise in Cloud Engineering, DevOps, Full-Stack Development, and AI Solutions. Experienced in Azure, AWS, GCP, Infrastructure as Code, CI/CD, containerization, cloud automation, and AI agent development.',
 };
 
 export default function RootLayout({
